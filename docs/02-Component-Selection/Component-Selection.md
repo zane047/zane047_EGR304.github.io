@@ -65,7 +65,7 @@
           <span class="muted">Product page:</span>
           <a href="https://www.digikey.com/en/products/filter/linear-voltage-regulators/699">https://www.digikey.com/en/products/filter/linear-voltage-regulators/699</a>
           <div>
-            <img src="Thing_1.png"alt="5V Buck Module"> 
+            <img src="Thing_1.png" alt="5V Buck Module"> 
           </div>
         </td>
         <td>
