@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Component Selection </title>
+  <title>Component Selection</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <style>
     :root{
