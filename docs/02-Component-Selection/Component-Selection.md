@@ -395,7 +395,7 @@
           <span class="muted">Datasheet:</span>
           <a href="https://www.ckswitches.com/media/1471/pts645.pdf">https://www.ckswitches.com/media/1471/pts645.pdf</a>
           <div>
-            <img src="PTS645SL43-2LFS.jpeg" alt="PTS645SL43-2 LFS Tactile Switch">
+            <img src="PTS645SL43-2LFS(1).jpeg" alt="PTS645SL43-2 LFS Tactile Switch">
           </div>
         </td>
         <td>
@@ -418,7 +418,7 @@
           <span class="muted">Datasheet:</span>
           <a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf">https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf</a>
           <div>
-            <img src="B3F.jpeg" alt="Omron B3F Series Tactile Switch">
+            <img src="B3F(1).jpeg" alt="Omron B3F Series Tactile Switch">
           </div>
         </td>
         <td>
@@ -442,7 +442,7 @@
           <span class="muted">Datasheet:</span>
           <a href="https://cdn-shop.adafruit.com/datasheets/B3F-1000-Omron.pdf">https://cdn-shop.adafruit.com/datasheets/B3F-1000-Omron.pdf</a>
           <div>
-            <img src="Adafruit_mini_tactile.jpg" alt="Adafruit Mini Tactile Switch">
+            <img src="Adafruit_mini_tactile(1).jpg" alt="Adafruit Mini Tactile Switch">
           </div>
         </td>
         <td>
