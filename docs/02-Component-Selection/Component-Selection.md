@@ -43,7 +43,7 @@
   </style>
 </head>
 <body>
-  <h1>Component Selection — Team 206: TechMinds</h1>
+  <h1>Component Selection</h1>
 
   <!-- ===================== 5 V, 1.5 A Regulator ===================== -->
   <h2>5 V, 1.5 A Regulator</h2>
