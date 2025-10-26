@@ -26,7 +26,7 @@
 
     
       
-        <title>Individal Block Diagram - EGR 304 Data Sheet Template</title>
+        <title>Individal Block Diagram - Zane’s Subsystem - Smart Curtain Control - EGR 304 Data Sheet Template</title>
       
     
     
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Individal Block Diagram
+              Individal Block Diagram - Zane’s Subsystem - Smart Curtain Control
             
           </span>
         </div>
@@ -466,62 +466,18 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Individal Block Diagram
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Individal Block Diagram
+    Individal Block Diagram - Zane’s Subsystem - Smart Curtain Control
   </span>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example-block-diagram" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example Block Diagram
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -792,32 +748,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#example-block-diagram" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example Block Diagram
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -840,18 +772,31 @@
   
 
 
-  <h1>Individal Block Diagram</h1>
-
-<h2 id="overview">Overview</h2>
-<p>This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...</p>
-<p>To get some initial formatting help, one can view <a href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/">"here"</a> some basic techniques.</p>
+<h1 id="overview">Overview</h1>
+<p>This subsystem represents <strong>Mihir Patel’s</strong> portion of <strong>Team 206’s Smart Curtain Control</strong> project.<br>
+It focuses on automating curtain movement using environmental sensing and motor control through the <strong>Microchip PIC18F57Q43 Curiosity Nano</strong> microcontroller.</p>
+<hr>
+<h1 id="system-description">System Description</h1>
+<p>The system integrates <strong>light and motion sensors</strong> that provide analog inputs to the MCU through ADC pins, while a <strong>digital button</strong> offers manual control.<br>
+The microcontroller processes these inputs and outputs control signals to the <strong>H-Bridge driver</strong>, which powers the <strong>DC motor</strong> responsible for opening and closing the curtain.<br>
+A <strong>red LED indicator</strong> provides visual feedback on system status.</p>
+<hr>
+<h1 id="power-configuration">Power Configuration</h1>
+<p>The design uses two voltage levels:
+- <strong>5V, 1.5A regulated supply</strong> for logic and sensors<br>
+- <strong>9V, 3A unregulated source</strong> for the H-Bridge and motor</p>
+<hr>
+<h1 id="signal-connections">Signal Connections</h1>
+<ul>
+<li><strong>PWM Outputs (RB1, RB2, RD0):</strong> Control motor speed and direction  </li>
+<li><strong>Digital I/O Ports (RF5, RC4, RD1, RD2, RD3):</strong> Routed through the 8-pin connector for inter-board communication and expansion  </li>
+<li><strong>Connector Pins:</strong></li>
+<li>Pins <strong>1–5:</strong> Digital signals  </li>
+<li>Pins <strong>6–7:</strong> Analog sensor data  </li>
+<li>Pin <strong>8:</strong> Ground (GND)</li>
+</ul>
+<p>Each connection is clearly labeled with its <strong>direction</strong> and <strong>signal type</strong> to maintain compatibility and simplify system integration.</p>
+<hr>
 <h2 id="example-block-diagram">Example Block Diagram</h2>
 <p>Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Block_Diagram.png" data-desc-position="bottom"><img alt="Example of Indivial Block diagram " src="../Block_Diagram.png"></a></p>
