@@ -5,11 +5,11 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">Zane Brauer Datasheet</font><br>
+<font size= "6"> **Zane Brauer Datasheet** </font><br>
 as part of<br>
-<font size= "8"> EGR 304</font><br>
+<font size= "8"> **EGR 304** </font><br>
 for<br>
-<font size= "5"> Team 206 </font><br>
+<font size= "5"> **Team 206** </font><br>
 
 **Submission: month, DD, YYYY**
 </center>
