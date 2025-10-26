@@ -5,18 +5,23 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">(Your Name) Datasheet</font><br>
+<font size= "6">Zane Brauer Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> EGR 304</font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team 206 </font><br>
 
 **Submission: month, DD, YYYY**
 </center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* Hello! Welcome to my Individual datasheet for my team 206 Smart Curtain project for EGR 304.
+  I'm Zane Brauer, currently studying Electrical Systems Engineering (ESE) as a Junior at Arizona State University.
+  This datasheet provides an inside look on my contributions to the smart curtain project.
+
+My contributions include: Individual Block Diagram, My Components Selection, Individual Schematic, as well as a Power Budget.
+  
 
 ### Project Summary
 
