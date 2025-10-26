@@ -23,7 +23,7 @@ for<br>
 **My contributions include:** 
 * [Individual Block Diagram](01-Block-Diagram/Block-Diagram.md) 
 * [My Components Selection](02-Component-Selection/Component-Selection.md)
-* [Individual Schematic](04-Schematic/Schematic.md)  
+* [Individual Schematic](04-Schematic/schematic.md)  
 * [Power Budget](05-Power-Budget/Power-Budget.md)
 
 
