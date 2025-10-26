@@ -7,8 +7,8 @@ tags:
 
 # Overview
 
-This subsystem represents **Mihir Patel’s** portion of **Team 206’s Smart Curtain Control** project.  
-It focuses on automating curtain movement using environmental sensing and motor control through the **Microchip PIC18F57Q43 Curiosity Nano** microcontroller.
+This subsystem represents **Zane Brauer's** portion of **Team 206’s Smart Curtain Control** project.  
+It focuses on detecting the room temperature using temperature sensing through the **Microchip PIC18F57Q43 Curiosity Nano** microcontroller.
 
 ---
 
