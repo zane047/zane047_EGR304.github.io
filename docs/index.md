@@ -21,11 +21,11 @@ for<br>
   This datasheet provides an inside look on my contributions to the smart curtain project.
 
 **My contributions include:** 
-* Individual Block Diagram 
-* My Components Selection 
-* Individual Schematic  
-* Power Budget.
-  
+* [Individual Block Diagram] 
+* [My Components Selection](02-Component-Selection/Component-Selection.md)
+* [Individual Schematic]  
+* [Power Budget](05-Power-Budget/Power-Budget.md)
+
 
 ### Project Summary
 
