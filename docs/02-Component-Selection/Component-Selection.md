@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Component Selection — Team 206: TechMinds</title>
+  <title>Component Selection</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <style>
     :root{
@@ -43,7 +43,7 @@
   </style>
 </head>
 <body>
-  <h1>Component Selection — Team 206: TechMinds</h1>
+  <h1>Component Selection</h1>
 
   <!-- ===================== 5 V, 1.5 A Regulator ===================== -->
   <h2>5 V, 1.5 A Regulator</h2>
@@ -65,7 +65,7 @@
           <span class="muted">Product page:</span>
           <a href="https://www.digikey.com/en/products/filter/linear-voltage-regulators/699">https://www.digikey.com/en/products/filter/linear-voltage-regulators/699</a>
           <div>
-            <img src="Thing_1.png" alt="5V Buck Module">
+            <img src="![](Thing_1.png)" alt="5V Buck Module">
           </div>
         </td>
         <td>
