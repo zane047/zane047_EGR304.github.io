@@ -20,7 +20,10 @@ for<br>
   I'm Zane Brauer, currently studying Electrical Systems Engineering (ESE) as a Junior at Arizona State University.
   This datasheet provides an inside look on my contributions to the smart curtain project.
 
-My contributions include: Individual Block Diagram, My Components Selection, Individual Schematic, as well as a Power Budget.
+**My contributions include:** * Individual Block Diagram 
+                          * My Components Selection 
+                          * Individual Schematic  
+                          * Power Budget.
   
 
 ### Project Summary
