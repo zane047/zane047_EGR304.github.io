@@ -15,8 +15,8 @@ It focuses on detecting the room temperature using a temperature sensor through 
 # System Description
 
 This system has a **Temperature sensor** that provides a analog input to the MCU through ADC pins. The system also has a **Button** for users that choose the manual control feature.
-The microcontroller takes the inputs from the **Temperature sensor**, and **Button** which outputs it to the **red LED indicator** and **Analog connector** which the connector leads back to the motor.
-The **red LED indicator** provides visual feedback on system status.
+The microcontroller takes the inputs from the **Temperature sensor**, and **Button** which outputs it to the **red LED indicator** and **Analog connector.** The connector leads back to the motor allowing 
+the cutrain to open or close. The **red LED indicator** provides visual feedback on system status.
 
 ---
 
