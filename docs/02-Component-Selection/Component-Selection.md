@@ -66,7 +66,4 @@
 **Rationale:** The Omron B3F is durable (~1M presses) and provides reliable tactile feedback, making it suitable for frequent user interaction. Cheaper alternatives lack lifespan and consistent feel, which could degrade user experience over time.
 
 
-**Choice:** Option 2 — Omron B3F Series Tactile Switch  
-**Rationale:** Durable (~1 M presses) and provides reliable tactile feedback for frequent user interaction.
-
 ---
