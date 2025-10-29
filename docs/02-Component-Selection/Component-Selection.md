@@ -48,9 +48,9 @@
 | **Option 1 — 5 mm Red LED (THT)**<br>Vf ≈ 2.0 V @ 20 mA<br>Price: < $0.10<br>[Digikey Page](https://www.digikey.com/en/products/filter/led-indication-discrete/105)<br>![5mm LED](Thing_10.png) | • Bright and easy to see<br>• Breadboard-friendly<br>• Durable leads | • Large footprint<br>• Requires holes (through-hole)<br>• Protrudes above PCB |
 | **Option 2 — 0805 SMD Red LED**<br>Vf ≈ 2.0 V typical<br>Price: < $0.10<br>[Digikey Page](https://www.digikey.com/en/products/filter/led-indication-discrete/105)<br>![0805 LED](Thing_11.png) | • Compact for tight PCBs<br>• Suited for reflow assembly<br>• Low parasitics | • Tricky to hand-solder<br>• Less visible off-axis<br>• Needs silkscreen polarity |
 | **Option 3 — 1206 SMD Red LED**<br>Vf ≈ 2.0 V typical<br>Price: < $0.10<br>[Mouser Page](https://www.mouser.com/c/optoelectronics/leds/standard-leds-single-color/)<br>![1206 LED](Thing_13.png) | • Bigger pads (easier hand-solder)<br>• Still compact<br>• Good visibility | • Needs resistor & stencil<br>• Slightly larger area<br>• Taller profile |
-
-**Choice:** Option 2 — 0805 SMD Red LED with 330 Ω resistor  
-**Rationale:** Compact, assembly-friendly, and bright enough at ~9 mA.
+ 
+**Choice:** Option 1 — 5 mm Red LED (THT) 
+**Rationale:** It is bright and clearly visible as well as already having experience using this modle all semester on my EGR 304 project class.
 
 ---
 
