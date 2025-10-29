@@ -11,7 +11,6 @@ Write a overview of what you did and why you did a Power Budget.
 
 ![budget2](ZBPowerBudget2.png){style width:"350" height:"300;"}
 
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
 
 ## Conclusions
 
