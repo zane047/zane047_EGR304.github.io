@@ -913,7 +913,7 @@
 </thead>
 <tbody>
 <tr>
-<td><strong>Option 1 — 7805 Linear Regulator (TO-220)</strong><br>Dropout ≈ 2 V<br>Simple 2-capacitor application<br>Price: ~<span class="arithmatex">\(1–\)</span>2 (qty 1)<br><a href="https://www.digikey.com/en/products/filter/linear-voltage-regulators/699">Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_1.png" data-desc-position="bottom"><img alt="7805" src="../Thing_1.png"></a></td>
+<td><strong>Option 1 — 7805 Linear Regulator (TO-220)</strong><br>Dropout ≈ 2 V<br>Simple 2-capacitor application<br>Price: ~<span class="arithmatex">\(1–\)</span>2 (qty 1)<br><a href="https://www.digikey.com/en/products/filter/linear-voltage-regulators/699">Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_1.png" data-desc-position="bottom"><img alt="LM7805" src="../Thing_1.png"></a></td>
 <td>• Very simple and low-noise output<br>• Easy to source and short lead time<br>• Excellent line/load regulation</td>
 <td>• Inefficient from 12 V → 5 V<br>• Needs heatsink above ~300 mA<br>• Dropout ≈ 2 V limits low-Vin</td>
 </tr>
@@ -929,8 +929,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 2 — 5 V Buck Module<br>
-<strong>Rationale:</strong> Best thermals and efficiency from a 12 V source while delivering up to ~1.5 A.</p>
+<p><strong>Choice:</strong> Option 1 — LM7805<br>
+<strong>Rationale:</strong> Has a Low noise output as well as myself personally having familiarity with this product as it was used all semsester in my EGR 304 project class.</p>
 <hr>
 <h2 id="temperature-sensor-analog-output">Temperature Sensor (Analog Output)</h2>
 <table>
@@ -959,8 +959,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 1 — LM35<br>
-<strong>Rationale:</strong> Direct °C scaling keeps firmware trivial; buffer with MCP6002 if cabling is long.</p>
+<p><strong>Choice:</strong> Option 2 — TM36<br>
+<strong>Rationale:</strong> Works from a 5V rail as well as has a low power and easy ADC interface.</p>
 <hr>
 <h2 id="op-amp-buffer-gain-stage-5-v">Op-Amp (Buffer / Gain Stage @ 5 V)</h2>
 <table>
