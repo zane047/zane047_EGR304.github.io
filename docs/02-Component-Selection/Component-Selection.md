@@ -6,12 +6,12 @@
 
 | Solution | Pros | Cons |
 |-----------|------|------|
-| **Option 1 — 7805 Linear Regulator (TO-220)**<br>Dropout ≈ 2 V<br>Simple 2-capacitor application<br>Price: ~$1–$2 (qty 1)<br>[Product Page](https://www.digikey.com/en/products/filter/linear-voltage-regulators/699)<br>![7805](Thing_1.png) | • Very simple and low-noise output<br>• Easy to source and short lead time<br>• Excellent line/load regulation | • Inefficient from 12 V → 5 V<br>• Needs heatsink above ~300 mA<br>• Dropout ≈ 2 V limits low-Vin |
+| **Option 1 — 7805 Linear Regulator (TO-220)**<br>Dropout ≈ 2 V<br>Simple 2-capacitor application<br>Price: ~$1–$2 (qty 1)<br>[Product Page](https://www.digikey.com/en/products/filter/linear-voltage-regulators/699)<br>![LM7805](Thing_1.png) | • Very simple and low-noise output<br>• Easy to source and short lead time<br>• Excellent line/load regulation | • Inefficient from 12 V → 5 V<br>• Needs heatsink above ~300 mA<br>• Dropout ≈ 2 V limits low-Vin |
 | **Option 2 — 5 V Buck Module (e.g., MP1584 / LM2596)**<br>High-efficiency step-down DC/DC<br>Price: ~$2–$6<br>[Product Page](https://www.digikey.com/en/products/filter/dc-dc-converters/882)<br>![Buck Module](Thing_2.png) | • High efficiency → runs cool from 12 V<br>• Handles higher load current<br>• Wide input range and adjustable output | • Switching ripple/noise requires filtering<br>• PCB layout and EMI critical<br>• More components; taller height |
 | **Option 3 — MCP1825S-5002 (5 V LDO)**<br>1 A LDO, lower dropout than 7805<br>Price: ~$1–$2<br>[Product Page](https://www.digikey.com/en/products/detail/microchip-technology/MCP1825S-5002E-AB/1505941)<br>![MCP1825S](Thing_3.png) | • Lower dropout than 7805<br>• Quieter output than buck<br>• Simple BOM | • Still linear → wastes heat<br>• 1 A limit<br>• Thermal design needed above a few hundred mA |
 
-**Choice:** Option 2 — 5 V Buck Module  
-**Rationale:** Best thermals and efficiency from a 12 V source while delivering up to ~1.5 A.
+**Choice:** Option 1 — LM7805  
+**Rationale:** Has a Low noise output as well as myself personally having familiarity with this product as it was used all semsester in my EGR 304 project class.
 
 ---
 
@@ -23,8 +23,8 @@
 | **Option 2 — TMP36 (analog with offset)**<br>2.7–5.5 V supply (750 mV @ 25 °C)<br>Price: ~$1–$2<br>[Analog Devices Page](https://www.analog.com/en/products/tmp36.html)<br>![TMP36](Thing_5.png) | • Works from 5 V rail<br>• Low power and easy ADC interface<br>• Wide temp range (−40 to 125 °C) | • Accuracy ±2 °C<br>• Offset must be subtracted in firmware<br>• Analog output needs filtering |
 | **Option 3 — MCP9700 (analog)**<br>Slope 10 mV/°C with 500 mV offset<br>Price: < $1<br>[Microchip Page](https://www.microchip.com/en-us/product/MCP9700)<br>![MCP9700](Thing_6.png) | • Low cost<br>• Operates at 5 V<br>• Compatible with PIC ADC | • Offset adds math/error<br>• Accuracy ±2 °C typical<br>• Still analog → noise/EMI sensitive |
 
-**Choice:** Option 1 — LM35  
-**Rationale:** Direct °C scaling keeps firmware trivial; buffer with MCP6002 if cabling is long.
+**Choice:** Option 2 — TM36  
+**Rationale:** Works from a 5V rail as well as has a low power and easy ADC interface.
 
 ---
 
