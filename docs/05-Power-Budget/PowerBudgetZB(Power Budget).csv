@@ -1,0 +1,91 @@
+﻿Power Budget ,,,,,,,,,
+Team Number:,206,,,,,,,,
+Project Name:,EGR 304 Project,,,,,,,,
+Team Member Names:,"Zane, Muhir, Adrian",,,,,,,,
+Version:,#1,,,,,,,,
+,,,,,,,,,
+"A. List ALL major components (active devices, integrated circuits, etc.) except for power sources, voltage regulators, resistors, capacitors, or passive elements",,,,,,,,,
+All Major Components,Component Name,Part Number,Supply Voltage Range,Qty.,Absolute Maximum Current (mA),"Total Current
+(mA)",Unit,,
+,MicroController,PIC18F57Q43-CNANO,+1.8-5.5V,1,500,500,mA,,
+, +5V Regulator,LM7805CV,+5-35V,1,1000,1000,mA,,
+,Temperature Sensor,TMP36,2.7-5.5V,1,0.05,0.05,mA,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+ +5V Power Rail,Component Name,Part Number,"Supply
+Voltage
+Range",Qty.,"Absolute
+Maximum
+Current (mA)","Total
+Current
+(mA)",Unit,,
+,MicroController,PIC18F57Q43-CNANO,+1.8-5.5V,1,500,500,mA,,
+,Temperature Sensor,TMP36,2.7-5.5V,1,0.05,0.05,mA,,
+,,,,,,,,,
+,,,Subtotal ,,,500.05,mA,,
+,,,Safety Margin,,,25%,mA,,
+,,,Total Current Required on +5V Rail,,,625.0625,mA,,
+,,,,,,,,,
+Regulator, +5V Regulator,LM7805CV,(range),1,1000,1000,,,
+,Total Remaining Current Available on +5V Rail,,,,,374.9375,mA,,
+,,,,,,,,,
+External Power Source 1,Component Name,Part Number,"Supply
+Voltage
+Range",Output Voltage,"Absolute
+Maximum
+Current (mA)","Total
+Current
+(mA)",Unit,,
+Power Source 1 Selection,Plug-in Wall Supply,(full part number),12VAC,+V12,5000,5000,mA,,
+,,,,,,,,,
+Power Rails Connected to External Power Source 1, +5V Regulator,LM7805,+5- 35V,1,1000,1000,mA,,
+, +5V Regulator,LM7805,+5- 35V,1,1000,1000,mA,,
+, +5V Regulator,LM7805,+5- 35V,1,1000,1000,mA,,
+,,,,,,,,,
+Total Remaining Current Available on External Power Source 1,,,,,,2000,,,
+,,,,,,,,,
+Calculated Battery Life,,,,,,,,,
+,Component Name,Part Number,"Supply
+Voltage
+Range",,"Capacity
+(mAh)","Required
+By
+Regulators",,,
+,n/a,n/a,n/a,,n/a,#REF!,hours,,
+,,,,,Battery Life,#VALUE!,,,
+,,,,,,,,,
+Notes:,,,,,,,,,
+"External Supply Voltage should be determined by the dropout voltage for highest-voltage regulator (e.g., +14V for a +12V regulator).",,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
