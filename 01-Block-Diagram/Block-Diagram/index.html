@@ -778,8 +778,8 @@ It focuses on detecting the room temperature using a temperature sensor through 
 <hr>
 <h1 id="system-description">System Description</h1>
 <p>This system has a <strong>Temperature sensor</strong> that provides a analog input to the MCU through ADC pins. The system also has a <strong>Button</strong> for debugging or in otherwords recalibration.
-The microcontroller takes the inputs from the <strong>Temperature sensor</strong> which outputs it to the <strong>red LED indicator</strong> and <strong>Analog connector.</strong> The connector leads back to the motor allowing 
-the cutrain to open or close. The <strong>red LED indicator</strong> provides visual feedback on system status. The <strong>Button</strong> input goes into the Microcontroller, specifically the Digital I/O allowing for a recalibration to occur.</p>
+The microcontroller takes the inputs from the <strong>Temperature sensor</strong> which outputs it to the <strong>Analog connector.</strong> The connector leads back to the motor allowing 
+the cutrain to open or close. The <strong>red LED Debugger</strong> provides visual feedback on system status for the Debugging proccess. The <strong>Button</strong> input goes into the Microcontroller, specifically the Digital I/O allowing for a recalibration to occur as well as activating the <strong>red LED Debugger.</strong></p>
 <hr>
 <h1 id="power-configuration">Power Configuration</h1>
 <p>The design uses the voltage level of: <strong>5V, 1.5A regulated supply</strong> for logic and sensors.  </p>
@@ -787,7 +787,7 @@ the cutrain to open or close. The <strong>red LED indicator</strong> provides vi
 <h1 id="signal-connections">Signal Connections</h1>
 <ul>
 <li><strong>PWM Outputs (RA1, RC2):</strong> Outputs Red LED Indicator and outputs temperature sensor input to analog connector </li>
-<li><strong>Digital I/O Ports (RA1, RB2, RC4):</strong> Routed through the 8-pin connector for inter-board communication and expansion  </li>
+<li><strong>Digital I/O Ports (RB1, RB2, RC4):</strong> Routed through the 8-pin connector for inter-board communication and expansion  </li>
 <li><strong>Connector Pins:</strong></li>
 <li>Pins <strong>1–5:</strong> Digital signals  </li>
 <li>Pins <strong>6–7:</strong> Analog sensor data  </li>
