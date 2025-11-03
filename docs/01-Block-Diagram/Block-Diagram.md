@@ -43,4 +43,4 @@ Each connection is clearly labeled with its **direction** and **signal type** to
 ## Block Diagram 
 Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
 
-![Example of Indivial Block diagram ](Block_Diagram.PNG)
+![Example of Indivial Block diagram ](ForRealUpdate.png)
