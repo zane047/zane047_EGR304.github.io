@@ -12,7 +12,7 @@ and the manufacture links. This explains how much the product costs, where the p
 
 
 ## Bill of Materials Example (as Image)
-![](BOM.png){style width: "2000"}
+![](BOM2.PNG){style width: "2000"}
 **Figure 1:** Bill of Materials as a screenshot.
 
 
