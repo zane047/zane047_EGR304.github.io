@@ -8,11 +8,11 @@ This PCB is designed to support a value, PIC Nano Microcontroller and a Temperat
 
 
 ## PCB 3D-View
-![schematic](PCB_Front.png)
+![schematic](ZB.png)
 
 **Figure #1:** Showing Zane's Subsystem PCB Front.
 
-![schematic](PCB_Back.png)
+![schematic](ZB_Back.png)
 
 **Figure #2:** Showing Zane's Subsystem PCB Rear.
 
