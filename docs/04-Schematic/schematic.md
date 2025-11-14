@@ -8,7 +8,7 @@ This schematic shows the complete design for my Smart Curtain subsystem. It incl
 
 
 
-![schematic](PCB_Schematic.png)
+![schematic](ZB_Sch.png)
 **Figure #1:** Showing a example schematic.
 
-The schematic as a PDF download is available [*here*](Schematic_PCB.pdf),and the Zip folder of the project [*here*](fully_revised.zip).
+The schematic as a PDF download is available [*here*](ZB_Schematic.pdf),and the Zip folder of the project [*here*](fully_revised.zip).
