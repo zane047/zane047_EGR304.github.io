@@ -71,7 +71,7 @@
 
 | Solution | Pros | Cons |
 |----------|------|------|
-| **Mean Well GST40A09-P1J**<br>![GST40A](206C1.png)<br>90W unregulated 9V DC power supply, high reliability<br>Price: $17.30/each<br>[Product Page](https://www.digikey.com/en/products/detail/mean-well-usa-inc/gst40a09-p1j/7703703)<br>[Datasheet](https://www.meanwellusa.com/upload/pdf/GST40A/GST40A-spec.pdf) | - High reliability<br>- Stable output<br>- Protects circuits | - Bulkier<br>- Expensive |
+| **Mean Well GST40A09-P1J**<br>![GST40A](206C4.png)<br>90W unregulated 9V DC power supply, high reliability<br>Price: $17.30/each<br>[Product Page](https://www.digikey.com/en/products/detail/mean-well-usa-inc/gst40a09-p1j/7703703)<br>[Datasheet](https://www.meanwellusa.com/upload/pdf/GST40A/GST40A-spec.pdf) | - High reliability<br>- Stable output<br>- Protects circuits | - Bulkier<br>- Expensive |
 
 ### Option 2
 
