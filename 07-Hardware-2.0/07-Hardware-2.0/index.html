@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#improvements" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -817,6 +822,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -997,6 +1004,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1019,9 +1028,9 @@
   
 
 
-  <h1>Hardware 2.0</h1>
-
+<h1 id="improvements">Improvements</h1>
 <p>A hardware design with Version 2.0, if it were produced, would make improvements in efficiency, reliability, scalability, and overall performance. The primary upgrade would be replacing the LM7805 linear regulator with a switching (buck) regulator, on top of its low noise and straightforward design. The LM7805 is simple and low noise, but rather inefficient as all surplus voltage dissipates into heat. A switching regulator would greatly enhance efficiency, minimize heat, and allow safe support for additional components once their support comes, without adding any more electrical input on later parts of the system. Also, a significant improvement in PCB layout and grounding strategy would be made. An overhaul design should consider adding a dedicated ground plane and better power routing, and decoupling capacitors inserted with close alignment with the microcontroller and op-amp. This would eliminate electrical noise, allow for smoother signals, and avoid problems of analog-to-digital conversion accuracy. Separating the analog and digital signal paths would also bring a signal's integrity, particularly when more sensors are being added. The device can also be enhanced with the incorporation of further power protection elements like reverse-polarity protection, transient voltage suppression, and input filtering. Such protections will protect the system against errors by users and power surges, as well as unstable input conditions, making the system more robust for real-world operation. A tighter layout pattern, better bypassing, and perhaps even choosing a higher-precision op-amp if more precision is needed for the analog front-end can make life better as well. Such alterations would provide better measurement stability, minimize drift and noise in sensor signals. Version 2.0 should focus on expandability and documentation. As such, having more I/O headers, reserving space in future modules, and having proper hardware version control would allow the design to use larger versions that would scale more easily. In conclusion, these enhancements wouldn’t only turn the design from a small classroom prototype, but also make it a robust, energy efficient, and scalable embedded system that, in general, would be applicable over long periods of time, and would open space for future development.</p>
+<hr>
 
 
 
