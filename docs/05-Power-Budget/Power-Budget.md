@@ -20,4 +20,4 @@ and what exact power supply I need to ensure success on building this improved c
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](PowerBudgetZB.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetZB2.xlsx).
+The power budget as a PDF download is available [*here*](206PB.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetZB.xlsx).
