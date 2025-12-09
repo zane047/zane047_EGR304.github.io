@@ -2,7 +2,7 @@
 
 ---
 
-## 5 V, 1.5 A Regulator
+## 1. 5 V, 1.5 A Regulator
 
 | Solution | Pros | Cons |
 |-----------|------|------|
@@ -15,7 +15,7 @@
 
 ---
 
-## Temperature Sensor (Analog Output)
+## 2. Temperature Sensor (Analog Output)
 
 | Solution | Pros | Cons |
 |-----------|------|------|
@@ -28,7 +28,7 @@
 
 ---
 
-## Op-Amp (Buffer / Gain Stage @ 5 V)
+## 3. Op-Amp (Buffer / Gain Stage @ 5 V)
 
 | Solution | Pros | Cons |
 |-----------|------|------|
@@ -41,7 +41,7 @@
 
 ---
 
-## Red LED Indicator (5 V MCU Pin + Resistor)
+## 4. Red LED Indicator (5 V MCU Pin + Resistor)
 
 | Solution | Pros | Cons |
 |-----------|------|------|
@@ -54,7 +54,7 @@
 
 ---
 
-## Button (User Interface Subsystem)
+## 5. Button (User Interface Subsystem)
 
 | Solution | Pros | Cons |
 |-----------|------|------|
@@ -64,6 +64,29 @@
 
 **Choice:** Option 2 — Omron B3F Series Tactile Switch  
 **Rationale:** The Omron B3F is durable (~1M presses) and provides reliable tactile feedback, making it suitable for frequent user interaction. Cheaper alternatives lack lifespan and consistent feel, which could degrade user experience over time.
+
+## 6. 9V 3A Unregulated Power Supply (**Power Subsystem**)
+
+### Option 1
+
+| Solution | Pros | Cons |
+|----------|------|------|
+| **Mean Well GST40A09-P1J**<br>![GST40A](GST40A.jpeg)<br>90W unregulated 9V DC power supply, high reliability<br>Price: $17.30/each<br>[Product Page](https://www.digikey.com/en/products/detail/mean-well-usa-inc/gst40a09-p1j/7703703)<br>[Datasheet](https://www.meanwellusa.com/upload/pdf/GST40A/GST40A-spec.pdf) | - High reliability<br>- Stable output<br>- Protects circuits | - Bulkier<br>- Expensive |
+
+### Option 2
+
+| Solution | Pros | Cons |
+|----------|------|------|
+| **Amazon Basics 9V 3A AC/DC Adapter (B09ZTKTLGW)**<br>![B09ZTKTLGW](B09ZTKTLGW.jpg)<br>regulated output, compact wall-plug design<br>Price: $4.99/each<br>[Product Page](https://www.amazon.com/gp/product/B09ZTKTLGW/) | - Affordable and widely available<br>- Compact, plug-in wall adapter (saves space)<br>- Regulated output ensures stable voltage<br>- Includes standard barrel plug (5.5mm x 2.1mm)<br>- Suitable for continuous operation | - Lower build quality compared to industrial brands<br>- Limited protection features (no explicit overcurrent/short-circuit protection)<br>- Not designed for harsh environments or high-reliability applications<br>- May run warm under full load |
+
+### Option 3
+
+| Solution | Pros | Cons |
+|----------|------|------|
+| **Mean‑Well SGA40E09‑P1J**<br>![SGA40E09](SGA40E09.jpeg)<br>Mean Well SGA40E09-P1J – 40W wall-mount (plug-in) AC/DC adapter, 9 V output, ~4.44 A max<br>Price: $21.47/each<br>[Product Page](https://www.mouser.com/ProductDetail/MEAN-WELL/SGA40E09-P1J?qs=kU9BrJCShyk7JuwjBVtOlQ%3D%3D&srsltid=AfmBOooYPFy-o8z2TKsX1w-nQ8iGEcE8ENDtLzemfdFMs3mg4elY-K3U&utm_source=chatgpt.com)<br>[Datasheet](https://www.stathisnet.gr/image/SpecsUpload/028888.pdf?utm_source=chatgpt.com) | - Slim wall-mounted adapter (plug-in) form factor – simpler installation<br>- 9 V × 4.44 A gives ~40W, plenty margin above 3 A requirement<br>- High efficiency (reduces heat) and modern protections: Overcurrent, Overvoltage, Short-circuit built in | - Being plug-in, less modular for non-standard connector scenarios<br>- Slightly higher cost compared to generic adapters<br>- If input plug standard different (US vs EU), may require adapter or variant|
+
+**Choice:** Option 2: Amazon Basics 9V 3A AC/DC Adapter (B09ZTKTLGW)  
+**Rationale:** The Amazon Basics 9V 3A adapter is selected for its affordability, compact plug-in form factor, and regulated output, which ensures stable voltage for the Smart Curtain subsystem. While it lacks the advanced protection features and industrial-grade reliability of the Mean Well GST40A09-P1J, it is sufficient for typical indoor applications and offers a cost-effective solution for prototyping and low-to-moderate reliability requirements. The adapter is widely available, easy to integrate, and meets the project's power needs without unnecessary complexity or expense. For applications requiring higher reliability or continuous operation in demanding environments, the Mean Well GST40A09-P1J remains a superior choice, but for most use cases, the Amazon Basics adapter provides the best balance of performance, cost, and convenience. 
 
 
 ---
