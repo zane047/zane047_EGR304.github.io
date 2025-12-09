@@ -13,10 +13,9 @@ in my circuit.
 ![budget2](206P2.png){style width:"350" height:"300;"}
 
 
-## Conclusions
+## Explanation And Conclusion
 
-From the prepare Power Budget, I now get a better understanding of how much power needs go go into my circuit 
-and what exact power supply I need to ensure success on building this improved cirrcuit.
+The power budget also serves to estimate the total current demand of the system. In addition it checks that the 5 V regulator and the external 9 V power supply are capable of safely supporting all connected components. Thus, a Power Budget prepared from this process ensures that the power system is not undersized, which could lead to voltage drops, unstable operation, overheating, or permanent component damage. From the prepare Power Budget, I now get a better understanding of how much power needs go go into my circuit and what exact power supply I need to ensure success on building this improved cirrcuit.
 
 ## Resouces
 
