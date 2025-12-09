@@ -39,6 +39,20 @@ Each connection is clearly labeled with its **direction** and **signal type** to
 
 ---
 
+### Zane's Connector (Temperature Sensor Circuit Connector)
+
+| Pin | From        | To          | Type            | Description                              |
+|-----|-------------|-------------|-----------------|------------------------------------------|
+| 1   | Mihir (RC4) | Zane (RB1)  | 0–5 V Digital   | Digital control / status signal          |
+| 2   | Zane (RB2)  | Mihir (RD0) | 0–5 V Digital   | Digital control / status signal          |
+| 3   | Mihir (RD5) | Zane (RD5)  | 0–5 V Digital   | Flex pin (general‑purpose digital I/O)   |
+| 4   | Mihir (RD6) | Zane (RD6)  | 0–5 V Digital   | Flex pin (general‑purpose digital I/O)   |
+| 5   | Mihir (RD7) | Zane (RD7)  | 0–5 V Digital   | Flex pin (general‑purpose digital I/O)   |
+| 6   | Mihir (RB7) | Zane (RA7)  | 0–5 V Analog    | Motion sensor output                     |
+| 7   | Zane (RA2)  | Mihir (RA2) | 0–5 V Analog    | Temperature sensor output                |
+| 8   | Ground      | Ground      | Ground          | Common ground reference                  |
+
+---
 
 ## Block Diagram 
 Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
