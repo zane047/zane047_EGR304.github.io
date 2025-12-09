@@ -718,6 +718,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#final-major-components-selected" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Major Components Selected
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1225,6 +1234,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#final-major-components-selected" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Major Components Selected
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1453,7 +1471,53 @@
 </table>
 <p><strong>Choice:</strong> Option 2: Amazon Basics 9V 3A AC/DC Adapter (B09ZTKTLGW)<br>
 <strong>Rationale:</strong> the Amazon Basics 9 V 3 A plug-in adapter because it is cost-effective, widely available, and straightforward to integrate into the design. As a wall-plug adapter, it simplifies the power architecture by avoiding bulky external power bricks or custom power supply enclosures. For prototyping, testing, and typical indoor use — which are the expected operating conditions for this system — a compact, plug-and-play adapter provides an excellent balance between convenience, simplicity, and sufficient power delivery. The regulated 9 V output ensures consistent input for downstream regulators or circuitry, helping to maintain stable operation even if wall outlet voltage fluctuates. Although this adapter lacks the industrial-grade protections (like overcurrent, over-voltage, short-circuit protection) and the ruggedness of a supply like the Mean Well GST40A09-P1J, such protections may not be strictly necessary for a classroom or home use prototype — especially when we are in control of the load and environment.</p>
-<hr>
+<h2 id="final-major-components-selected">Final Major Components Selected</h2>
+<table>
+<thead>
+<tr>
+<th>Solution</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>7805 Linear Regulator (TO-220)</strong><br>Dropout ≈ 2 V<br>Simple 2-capacitor application<br>Price: ~<span class="arithmatex">\(1–\)</span>2 (qty 1)<br><a href="https://www.digikey.com/en/products/filter/linear-voltage-regulators/699">Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_1.png" data-desc-position="bottom"><img alt="LM7805" src="../Thing_1.png"></a></td>
+<td>• Very simple and low-noise output<br>• Easy to source and short lead time<br>• Excellent line/load regulation</td>
+<td>• Inefficient from 12 V → 5 V<br>• Needs heatsink above ~300 mA<br>• Dropout ≈ 2 V limits low-Vin</td>
+</tr>
+<tr>
+<td><strong>TMP36 (analog with offset)</strong><br>2.7–5.5 V supply (750 mV @ 25 °C)<br>Price: ~<span class="arithmatex">\(1–\)</span>2<br><a href="https://www.analog.com/en/products/tmp36.html">Analog Devices Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_5.png" data-desc-position="bottom"><img alt="TMP36" src="../Thing_5.png"></a></td>
+<td>• Works from 5 V rail<br>• Low power and easy ADC interface<br>• Wide temp range (−40 to 125 °C)</td>
+<td>• Accuracy ±2 °C<br>• Offset must be subtracted in firmware<br>• Analog output needs filtering</td>
+</tr>
+<tr>
+<td><strong>MCP6002 (dual, rail-to-rail I/O)</strong><br>1.8–5.5 V, 1 MHz GBW<br>Price: ~<span class="arithmatex">\(0.50–\)</span>1.50<br><a href="https://www.microchip.com/en-us/product/MCP6002">Microchip Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_7.png" data-desc-position="bottom"><img alt="MCP6002" src="../Thing_7.png"></a></td>
+<td>• Rail-to-rail I/O at 5 V<br>• Low quiescent current<br>• Unity-gain stable</td>
+<td>• Limited bandwidth (1 MHz)<br>• Modest slew rate<br>• Low output drive</td>
+</tr>
+<tr>
+<td><strong>5 mm Red LED (THT)</strong><br>Vf ≈ 2.0 V @ 20 mA<br>Price: &lt; $0.10<br><a href="https://www.digikey.com/en/products/filter/led-indication-discrete/105">Digikey Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_10.png" data-desc-position="bottom"><img alt="5mm LED" src="../Thing_10.png"></a></td>
+<td>• Bright and easy to see<br>• Breadboard-friendly<br>• Durable leads</td>
+<td>• Large footprint<br>• Requires holes (through-hole)<br>• Protrudes above PCB</td>
+</tr>
+<tr>
+<td><strong>Omron B3F Series Tactile Switch</strong><br>High-quality tactile push button, reliable, long life<br>Price: $0.24/each<br><a href="https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-1000/33150">Product Page</a><br><a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf">Datasheet</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../B3F%20%281%29.jpeg" data-desc-position="bottom"><img alt="B3F" src="../B3F%20%281%29.jpeg"></a></td>
+<td>• Long lifespan (~1M presses)<br>• Reliable actuation<br>• Consistent tactile feel</td>
+<td>• Slightly higher cost<br>• Requires careful soldering</td>
+</tr>
+<tr>
+<td><strong>Amazon Basics 9V 3A AC/DC Adapter (B09ZTKTLGW)</strong><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../206C2.png" data-desc-position="bottom"><img alt="B09ZTKTLGW" src="../206C2.png"></a><br>regulated output, compact wall-plug design<br>Price: $4.99/each<br><a href="https://www.amazon.com/gp/product/B09ZTKTLGW/">Product Page</a></td>
+<td>- Affordable and widely available<br>- Compact, plug-in wall adapter (saves space)<br>- Regulated output ensures stable voltage<br>- Includes standard barrel plug (5.5mm x 2.1mm)<br>- Suitable for continuous operation</td>
+<td>- Lower build quality compared to industrial brands<br>- Limited protection features (no explicit overcurrent/short-circuit protection)<br>- Not designed for harsh environments or high-reliability applications<br>- May run warm under full load</td>
+</tr>
+<tr>
+<td>---</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 
 
